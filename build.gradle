@@ -44,5 +44,12 @@ allprojects {
         }
         // Huawei maven
         maven { url 'https://developer.huawei.com/repo/' }
+
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
+        maven { url "https://artifactory.appodeal.com/appodeal" }
+        jcenter()
+        jcenter { url "https://jcenter.bintray.com/" }
     }
 }
